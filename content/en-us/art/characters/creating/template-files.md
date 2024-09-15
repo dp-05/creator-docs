@@ -5,7 +5,7 @@ next: /art/characters/creating/head-objects
 prev: /art/characters/creating/
 ---
 
-Each template comes pre-baked with the [necessary components of an avatar character](../../../art/characters/index.md#components-of-an-avatar) to save you time and effort in creating a custom avatar character. When creating characters from scratch, these individual components typically take a lot of time and a deep technical background in your modeling application. Templates allow you to skip several steps and work from a variety of base character shapes.
+Each template comes pre-baked with the [necessary components of an avatar character](../../../art/characters/index.md#components-of-an-avatar) to save you time.
 
 <table>
 <thead>
@@ -39,7 +39,7 @@ Each template comes pre-baked with the [necessary components of an avatar charac
 </tbody>
 </table>
 
-You can choose from a variety of templates that best match your final design and save time on creating the technical components. The examples in the template tutorials utilize the [Round Blender template](../../../assets/art/reference-files/RoundMale.zip). Experiment with other templates to create your own unique character and final result.
+The examples in this tutorial utilize the [Round Blender template](../../../assets/art/reference-files/RoundMale.zip). Experiment with other templates to create your own unique character.
 
 Each `.zip` contains a `.blend`, `.fbx`, and PBR texture `.png` files for that template model. If using Blender or following the [template creation guides](../../../art/characters/creating/index.md), use the `.blend` project.
 
@@ -105,5 +105,3 @@ Each `.zip` contains a `.blend`, `.fbx`, and PBR texture `.png` files for that t
   </GridContainer>
   </TabItem>
 </Tabs>
-
-After downloading your template file, review the [unique head object structure](../../../art/characters/creating/head-objects.md) and [additional Blender settings](../../../art/characters/creating/blender-configurations.md) that require adjustment before exporting. It's crucial to understand these concepts prior to committing to any alterations as these can conflict with Roblox's avatar requirements if not addressed.
