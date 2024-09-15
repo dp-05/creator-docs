@@ -1,15 +1,17 @@
 ---
 title: Template Head Structure
-description: Each Roblox avatar template contains modular separate pieces that must later be combined or removed.
+description: Each Roblox avatar template contains modular separate pieces.
 next: /art/characters/creating/blender-configurations
 prev: /art/characters/creating/template-files
 ---
 
-In each template file, each avatar body includes extra head mesh objects and face armature bones. Separating these objects within the templates allow you to make easier changes to each of these separate objects, as demonstrated during the texturing step.
+In each template file, the avatar body includes extra head mesh objects and face armature bones for easier changes.
 
-To avoid validation errors, you must [join](../../../art/characters/creating/combining-head-geometry.md) and [remove](../../../art/characters/creating/removing-extra-bones.md) these extra objects during the cleanup process prior to exporting.
+<Alert severity = 'info'>
+  These extra objects and bones must be removed before export to avoid validation errors in the marketplace. We go over this in detail during the cleanup step.
+</Alert>
 
-The extra head mesh objects are the following:
+Extra head meshes:
 <GridContainer numColumns="2">
 
   <figure>
@@ -31,7 +33,7 @@ The extra head mesh objects are the following:
 
 <p />
 
-The extra head bone children are the following and may differ between templates:
+Extra head bone children (varies between templates):
 
 <GridContainer numColumns="2">
 
@@ -49,4 +51,3 @@ The extra head bone children are the following and may differ between templates:
   width="800" /><figcaption>Extra head-related bones in Blender's Outliner</figcaption></figure>
 </GridContainer>
 
-While these extra objects exist to aid the creation and modification process, leaving them in your project on final export will cause validation issues when uploading these assets to the Marketplace.
